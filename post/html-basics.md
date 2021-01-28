@@ -167,9 +167,3 @@ We use `div`s to style contents. But if we style a `div` directly, every `div` e
 -->
 ```
 You can add notes to yourself using an HTML comment. Or, it can be used to test out a block of code.
-
-
-
-
-## Further Learning
-- [Khanacademy Intro to HTML/CSS](https://www.khanacademy.org/computing/computer-programming/html-css)
