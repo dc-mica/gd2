@@ -13,7 +13,7 @@ So, in positioning and styling the HTML elements, we are working with boxes. And
 
 A box is made up of four parts - content, padding, border and margin. You may enable or disable some of the parts.
 
-![css box model](../images/css-box-model.png)
+![css box model](./css-box-model.png)
 
 ## Content
 Let's first take a look at a content. A content is the text you write between the pair of html tags.
