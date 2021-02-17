@@ -28,6 +28,32 @@ div.box-2 {
   top: 80px;
   left: 320px;
 }
+```
+
+![drawing 1](./css-drawing-1.png)
 
 
+
+```css
+div {
+  position: absolute;
+  box-sizing: border-box;
+}
+
+div.box-1 {
+  border: 1px solid red;
+  width: 120px;
+  height: 120px;
+  top: 120px;
+  left: 100px;
+  background-color: yellow;
+}
+div.box-2 {
+  border: 1px solid red;
+  width: 180px;
+  height: 80px;
+  top: 80px;
+  left: 120px;
+  background: -webkit-linear-gradient(left, #FF0000 0%, #FFFF00 50%, #ff0000 100%); 
+}
 ```
