@@ -191,5 +191,6 @@ div {
   height: 40px;
   background-color: black;
 }
-
 ```
+
+![drawing 3](./css-drawing-3.png)
