@@ -2,6 +2,7 @@
 
 Normally, HTML content is displayed from top to bottom one by one. But we can use CSS to customize the placement of each HTML element. The technique is to use the `position` property. When you set an element `position: absolute;`, you can now set its position relative to the entire page, not having to follow the order in the HTML. It works almost exactly like how you draw shapes in Photoshop/Illustrator. The origin (top: 0 and left: 0) is the top-left corner. From there, try different values. Below are two simple examples:
 
+## Example 1 & 2
 
 ```html
 <div class="box-1"></div>
@@ -66,6 +67,8 @@ div {
 ![drawing 2](./css-drawing-2.png)
 
 We can do something more complex:
+
+## Example 3
 
 ```html
 <div class="background">
