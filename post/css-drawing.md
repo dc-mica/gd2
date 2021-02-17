@@ -1,6 +1,8 @@
 # Drawing with CSS
 
-Normally, HTML content is displayed from top to bottom one by one. But we can use CSS to customize the placement of each HTML element. The technique is to use the `position` property. When you set an element `position: absolute;`, you can now set its position relative to the entire page, not having to follow the order in the HTML. It works almost exactly like how you draw shapes in Photoshop/Illustrator. The origin (top: 0 and left: 0) is the top-left corner. From there, try different values. Below are two simple examples:
+Normally, HTML content is displayed from top to bottom one by one. But we can use CSS to customize the placement of each HTML element. The technique is to use the `position` property. When you set an element `position: absolute;`, you can now set its position relative to the entire page, not having to follow the order in the HTML. It works almost exactly like how you draw shapes in Photoshop/Illustrator. The origin (top: 0 and left: 0) is the top-left corner. From there, try different values.
+
+Note that absolute positioning is **not** a good way to design regular pages as it takes an element out of regular document flow. You should use it only when it is necessary, and it shouldn't be the default choice.
 
 ## Example 1 & 2
 
