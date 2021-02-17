@@ -57,3 +57,5 @@ div.box-2 {
   background: -webkit-linear-gradient(left, #FF0000 0%, #FFFF00 50%, #ff0000 100%); 
 }
 ```
+
+![drawing 2](./css-drawing-2.png)
