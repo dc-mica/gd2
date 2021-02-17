@@ -13,7 +13,9 @@ Normally, HTML content is displayed from top to bottom one by one. But we can us
 div {
   position: absolute; 
 }
-div.box-1 {
+
+/* use class selector to target individual elements. */
+.box-1 {
   border:  1px solid red;
   /* set width, height, background to display shape */
   width: 200px;
@@ -24,7 +26,7 @@ div.box-1 {
   left: 200px;
 
 }
-div.box-2 {
+.box-2 {
   border: 2px dashed teal;
   width: 120px;
   height: 40px;
@@ -43,7 +45,7 @@ div {
   box-sizing: border-box;
 }
 
-div.box-1 {
+.box-1 {
   border: 1px solid red;
   width: 120px;
   height: 120px;
@@ -51,7 +53,7 @@ div.box-1 {
   left: 100px;
   background-color: yellow;
 }
-div.box-2 {
+.box-2 {
   border: 1px solid red;
   width: 180px;
   height: 80px;
@@ -62,3 +64,132 @@ div.box-2 {
 ```
 
 ![drawing 2](./css-drawing-2.png)
+
+We can do something more complex:
+
+```html
+<div class="background">
+</div>
+
+<div class="one g-1">
+  <div class="two">
+    <div class="three">
+      <div class="four">
+        <div class="five">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="one g-2">
+  <div class="two">
+    <div class="three">
+      <div class="four">
+        <div class="five">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="one g-3">
+  <div class="two">
+    <div class="three">
+      <div class="four">
+        <div class="five">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="one g-4">
+  <div class="two">
+    <div class="three">
+      <div class="four">
+        <div class="five">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+```css
+div {
+  box-sizing: border-box;
+}
+
+.background {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  background-color: hsl(100, 50%, 80%);
+  border: 20px solid hsl(120, 50%, 70%);
+}
+
+.g-1 {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.g-2 {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+.g-3 {
+  position: absolute;
+  top: 10px;
+  left: 240px;
+  transform: rotate(45deg);
+}
+.g-4 {
+  position: absolute;
+  top: 240px;
+  left: 360px;
+  transform: rotate(135deg);
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  border-left: 20px solid black;
+  border-right: 20px solid red;
+  border-top: 20px solid yellow;
+  border-bottom: 20px solid green;
+}
+.two {
+  width: 160px;
+  height: 160px;
+  border-left: 20px solid red;
+  border-right: 20px solid yellow;
+  border-top: 20px solid green;
+  border-bottom: 20px solid blue;
+}
+.three {
+  width: 120px;
+  height: 120px;
+  border-left: 20px solid brown;
+  border-right: 20px solid green;
+  border-top: 20px solid black;
+  border-bottom: 20px solid orange;
+}
+.four {
+  width: 80px;
+  height: 80px;
+  border-left: 20px solid teal;
+  border-right: 20px solid pink;
+  border-top: 20px solid ivory;
+  border-bottom: 20px solid yellowgreen;
+}
+.five {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+}
+
+```
