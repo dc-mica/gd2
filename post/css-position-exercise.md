@@ -40,4 +40,4 @@ Here are some examples of card view layout:
 - https://www.w3schools.com/howto/howto_css_cards.asp
 - https://www.w3schools.com/w3css/w3css_cards.asp
 - https://freefrontend.com/css-cards/
-- search "HTML card examples" online.
+- search "HTML card view examples" online and look for simple examples.
