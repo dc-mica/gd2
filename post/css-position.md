@@ -161,6 +161,47 @@ div {
 ## Practice
 See if you can recreate these compositions. What position value would you use?:
 
+```html
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    .box1 {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      opacity: .5;
+    }
+
+    .box2 {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+      opacity: .5;
+    }
+
+    .box3 {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      opacity: .5;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="box1">Box 1</div>
+  <div class="box2">Box 2</div>
+  <div class="box3">Box 3</div>
+</body>
+
+</html>
+```
+
 <img src="./css-pos-001.png" width="30%" style="float: left; margin-right: 5%;">
 <img src="./css-pos-002.png" width="30%" style="float: left; margin-right: 5%;">
 <img src="./css-pos-003.png" width="30%" style="float: left; margin-right: 5%;">
