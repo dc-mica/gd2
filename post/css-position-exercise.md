@@ -27,7 +27,9 @@ Use the HTML below:
 And add your own CSS to create the result as below:
 
 ## 1
-![exercise](./css-pos-ex-1.png)
+
+<img src="./css-pos-ex-1.png" width="30%" /> 
 
 ## 2
-![exercise](./css-pos-ex-2.png)
+
+<img src="./css-pos-ex-2.png" width="30%" /> 
