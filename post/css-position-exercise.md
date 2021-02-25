@@ -31,3 +31,7 @@ A few tips:
 ## 2
 
 <img src="./css-pos-ex-2.png" width="30%" /> 
+
+## 3
+
+Can you use the same HTML and add your own CSS to come up with your original card view layout?
