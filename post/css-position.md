@@ -161,7 +161,7 @@ div {
 ## Practice
 See if you can recreate these compositions. What position value would you use?:
 
-<img src="./css-pos-001.png" width="30%" style="float: left; margin-right: 5%;">
+<img src="./css-pos-001.png" width="30%" style="float: left; width: 30%; margin-right: 5%;">
 <img src="./css-pos-002.png" width="30%" style="float: left; margin-right: 5%;">
 <img src="./css-pos-003.png" width="30%" style="float: left; margin-right: 5%;">
 <img src="./css-pos-004.png" width="30%" style="float: left; margin-right: 5%;">
