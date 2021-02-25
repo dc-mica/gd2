@@ -1,6 +1,6 @@
 # CSS Layout: Position
 
-CSS is used to visually style a webpage. It is relatively easy to style individual element such as font size, weight, color, because you can google for the right property name and its values and simply apply. But, laying out a page takes more planning as you will have to think about the structure and relationship among multiple elements.
+CSS is used to visually style a webpage. It is relatively easy to style individual element such as font size, weight, color, because you can google for the right property name and its values and simply apply rules. But, laying out a page takes more planning as you will have to think about the structure and relationship among multiple elements. _Understanding the relationship among different elements_ is important.
 
 There are multiple ways to design a layout using CSS. Here, we will look at `position` property. 
 
