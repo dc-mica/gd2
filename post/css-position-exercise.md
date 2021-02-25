@@ -19,6 +19,7 @@ And add your own CSS to create the result as below.
 
 A few tips:
 - start from parent elements and go into children elements. And block out boxes first before worrying about smaller details.
+- Use box model (width, height, padding, border, margin)
 - You need to decide what position property to use: `relative` or `absolute`.
 - If an element keeps its original space, use `relative`.
 - If the original space gets taken over by other elements, use `absolute`.
