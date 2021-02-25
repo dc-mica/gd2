@@ -85,6 +85,11 @@ When you set the position absolute, first, your element will look at its parent 
 
 As if this was not enough to make your head spin, there is one more important thing to know. Notice that when you position the box-2 absolute, it is taken out of the regular document flow, so the other elements *can* take up its original space.
 
+To recap how to use `absolute` positioning:
+
+1. Any positioning with `absolute` will be relative to its closest positioned ancestor. If it can't find one, it is relative to the entire document.
+2. Elements with `absoslute` is taken out of the regular document flow, so other elements can take up its original space.
+
 ### grouping things together
 To make the box positioned relative to its positioned ancestor, change the code as below:
 
