@@ -4,7 +4,7 @@ CSS is used to visually style a webpage. It is relatively easy to style individu
 
 There are multiple ways to design a layout using CSS. Here, we will look at `position` property. 
 
-Below is a code template we will use for this posting, so let's set that up on [Codepen](http://codepen.io/cdaein/pen/zNgraq):
+Below is a code template we will use for this posting:
 ```html
 <div class="box-1">box 1</div>
 <div class="box-2">box 2</div>
