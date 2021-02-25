@@ -1,6 +1,6 @@
 # CSS Position Exercise
 
-Use the HTML below:
+Use the HTML below, and **do not change anything from the HTML** (no changing order, no new elements).
 
 ```html
 <div class="article">
@@ -14,7 +14,7 @@ Use the HTML below:
 </div>
 ```
 
-Do not change anything from the HTML above (no changing order, no new elements).
+
 And add your own CSS to create the result as below.
 
 A few tips:
