@@ -23,14 +23,14 @@ div {
 `position` property takes one of the four values, `static`, `relative`, `fixed` and `absolute`.
 
 ## static
-This is the default positioning for any element, meaning you don't have to specify it because... it's default. With the position set to `static`, or by *not* specifying it, it will follow the regular document flow - from top to bottom and from left to right. If you want to move things around, then you will have to *position* with other values.
+This is the default positioning for any element, meaning you don't have to specify it because... it's default. With the position set to `static`, or by *not* specifying it, it will follow the regular document flow - from top to bottom and from left to right.
 
 ```css
 .box-1 {
   position: static;
 }
 ```
-Above will *not* have any effect on your box 1.
+Above will *not* have any effect on your box 1. If you want to move things around, then you will have to *position* with other values. See below for the other values.
 
   
 ## relative
