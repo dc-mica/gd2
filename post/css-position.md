@@ -124,7 +124,7 @@ div {
 
 
 ```
-In the example above, we have one more level of hierarchy with `.box-parent`. Because `.box-parent` is positioned, `div.box-2`'s absolute position will be relative to its parent, `.box-parent`. If you now move the parent element `.box-parent`, all the children element will move together. This is great when you want to move an entire module.
+In the example above, we have one more level of hierarchy with `.box-parent`. Because `.box-parent` is positioned, `div.box-2`'s absolute position will be relative to its parent, `.box-parent`. If you now move the parent element `.box-parent`, all the children element will move together. This is great when you want to move an entire module. In other words, if you want to move the whole group of elements, you only need to move the parent, not the individual children elements.
   
 ## fixed
 To see what `fixed` position does, we will use a different code example.
