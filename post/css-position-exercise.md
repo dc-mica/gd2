@@ -1,0 +1,33 @@
+# CSS Position Exercise
+
+Use the HTML below:
+
+```html
+<div class="article">
+  <div class="category">Column</div>
+  <div class="date">Mar. 1, 2017</div>
+  <img src="http://via.placeholder.com/320x240">
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+  <p>Ut lacus nunc, convallis nec justo sed, scelerisque luctus mi. Fusce odio erat, porttitor vel pulvinar vitae, imperdiet ut mi. Suspendisse convallis, nunc vitae placerat rutrum, lorem justo tempor erat, et euismod nibh velit sit amet justo. Ut ornare
+    sagittis nulla at feugiat. Nam enim elit, efficitur consectetur imperdiet sed, iaculis non dolor. Sed efficitur tortor sed magna finibus lacinia. Duis finibus dolor venenatis, dapibus ipsum nec, interdum neque. Proin ac dapibus urna. Donec eget odio
+    a dui gravida aliquam id quis orci.</p>
+</div>
+
+<div class="article">
+  <div class="category">Column</div>
+  <div class="date">Mar. 1, 2017</div>
+  <img src="http://via.placeholder.com/320x240">
+  <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+  <p>Ut lacus nunc, convallis nec justo sed, scelerisque luctus mi. Fusce odio erat, porttitor vel pulvinar vitae, imperdiet ut mi. Suspendisse convallis, nunc vitae placerat rutrum, lorem justo tempor erat, et euismod nibh velit sit amet justo. Ut ornare
+    sagittis nulla at feugiat. Nam enim elit, efficitur consectetur imperdiet sed, iaculis non dolor. Sed efficitur tortor sed magna finibus lacinia. Duis finibus dolor venenatis, dapibus ipsum nec, interdum neque. Proin ac dapibus urna. Donec eget odio
+    a dui gravida aliquam id quis orci.</p>
+</div>
+```
+
+And add your own CSS to create the result as below:
+
+## 1
+![exercise](./css-pos-ex-1.png)
+
+## 2
+![exercise](./css-pos-ex-2.png)
