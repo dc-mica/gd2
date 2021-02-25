@@ -35,3 +35,9 @@ A few tips:
 ## 3
 
 Can you use the same HTML and add your own CSS to come up with your original card view layout?
+
+Here are some examples of card view layout:
+- https://www.w3schools.com/howto/howto_css_cards.asp
+- https://www.w3schools.com/w3css/w3css_cards.asp
+- https://freefrontend.com/css-cards/
+- search "HTML card examples" online.
