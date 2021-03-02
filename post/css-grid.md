@@ -3,7 +3,7 @@ CSS Grid is a great way to design a page layout, particularly, for 2 dimensional
 
 Let's take a look at a simple example that we will build:
 
-<img src="../images/css-grid-basics-1.png" width="400">
+<img src="./css-grid-basics-1.png" width="400">
 
 ```html
 <div class="container">
